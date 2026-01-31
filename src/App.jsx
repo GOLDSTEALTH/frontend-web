@@ -81,7 +81,7 @@ export default function App() {
           <section className="section" id="mission">
             <SectionTitle text="Mission" />
             <p className="text-block">
-              Build an AI that strengthens faith practice, not distracts from
+              Build an AI that strengthens Deen practice, not distracts from
               it—combining respectful content filtering, masjid connectivity,
               and fast, source-backed answers.
             </p>
