@@ -10,13 +10,9 @@ export default function Hero({ tags, badges }) {
           <div className="hero__content">
             <div className="pill pill--highlight">DEEN AI PREVIEW</div>
             <h1 className="hero__title">
-              Reimagining day-to-day faith with calm, thoughtful technology.
+              Reimagining day-to-day Prayers with calm, thoughtful technology.
             </h1>
-            <p className="hero__lead">
-              DEEN A.I. links masjid schedules to your pocket, syncs imam
-              updates in real-time, and gently blocks distracting content so you
-              can stay present.
-            </p>
+          
             <a
               href="#"
               className="button button--lg"
@@ -43,14 +39,15 @@ export default function Hero({ tags, badges }) {
           <div className="panel panel--mission">
             <SectionTitle text="Our mission at Deen Labs" />
             <p className="text-block text-block--inset">
-              Build tools that strengthen faith practice instead of distracting from it—connecting people to
+              DEEN A.I. links masjid schedules to your pocket, syncs imam
+              updates in real-time, and gently blocks distracting content so you
+              can stay present.It has tools that strengthen faith practice instead of distracting from it—connecting people to
               their masajid, filtering content mindfully, and delivering trustworthy, source-backed answers.
               DEEN AI is our flagship app to make that mission tangible.
             </p>
           </div>
         </div>
       </section>
-
       {/* PAGE 2 - DETAILS */}
       <section className="hero hero--details" id="hero-details">
         <div className="hero__grid hero__grid--zigzag">

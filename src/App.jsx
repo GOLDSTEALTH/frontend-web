@@ -17,7 +17,7 @@ const heroTags = [
 const heroBadges = [
   "Imam-driven live updates",
   "Auto-detects nearby masajid",
-  "Camera + mic assistance",
+  "Camera + mic protections",
   "Trained on verified hadith",
 ];
 
@@ -78,6 +78,15 @@ export default function App() {
         <TopBar />
         <Hero tags={heroTags} badges={heroBadges} />
         <main className="wrapper">
+          <section className="section" id="mission">
+            <SectionTitle text="Mission" />
+            <p className="text-block">
+              Build an AI that strengthens faith practice, not distracts from
+              it—combining respectful content filtering, masjid connectivity,
+              and fast, source-backed answers.
+            </p>
+            <div className="page-indicator">page 3</div>
+          </section>
           <section className="section" id="features">
             <SectionTitle text="Core capabilities" />
             <Features items={features} />
